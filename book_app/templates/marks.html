@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>marks</title>
+</head>
+<body>
+<h4> marks :{{marks}}</h4>
+{% if marks > 80 %}
+   <h4> A GRADE</h4>
+{% elif marks > 70 %}
+    <h2> grade B </h2>
+{% elif marks > 60 %}
+    <h2> grade C </h2>
+{% elif marks > 50 %}
+    <h2> grade D </h2>
+{% else %}
+    <h2> fail </h2>
+{% endif %}
+
+</body>
+</html>
